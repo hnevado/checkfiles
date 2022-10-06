@@ -10,6 +10,6 @@ $fichero = new Files("test_image.jpeg",1000000,"pdf,jpeg,png");<br/><br/>
 $extension=$fichero->checkExtensions();<br/>
 $tamano=$fichero->checkSize();<br/><br/>
 
-echo $extension; // return true if is correct
+echo $extension; // return true if is correct <br/>
 echo $tamano; //return true if is correct
 
